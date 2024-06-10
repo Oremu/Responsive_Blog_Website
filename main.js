@@ -1,5 +1,5 @@
 //nav background
-const header = dcoument.querySelector("header");
+const header = document.querySelector("header");
 
 window.addEventListener("scroll", () => {
     header.classList.toggle("shadow", window.scrollY > 0);
@@ -14,7 +14,7 @@ $(document).ready(function () {
         } else{
             $(".post-box")
                 .not("." + value)
-                .hide(1000);
+                .hide("1000");
             $(".post-box")
             .filter("." + value)
             .show("1000")
